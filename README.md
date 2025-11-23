@@ -61,10 +61,10 @@ These scripts provide interactive menus, logging, automation, and real-time syst
 
 | `network_monitor_tool.sh`     | Purpose                                                                         |
 |-----------------------------------|-----------------------------------------------------------------------------|
-| 1. Display Disk Usage For Each FileSystem       | Display CPU Usage running `grep '^cpu '` and Collects from `/pr>
-| 2. List Top 15 Largest files in Directory       | Log and Track CPU Usage from `/proc/stat` into `cpu_usage_log.t>
-| 3. Show Modified Files Within the last 24 Hours | Displays PIDs for CPU cores used
-| 4. Clean Temp Files over a given size           | Checks CPU Thresh Is Exceeded Depending on User Input
+| 1. Display Active Interfaces and IPs            | `ip -br addr show` runs |
+| 2. Display Bandwidth Usage On Interfaces        | Reads Bandwidth Usage From `/sys/class/net/$int/statistics/rx_bytes` & `/tx_bytes`|
+| 3. Show Specific IP Connections                 | Shows Relation With Specified IPs by user. |
+| 4. Track Network Traffic Overtime               | Tracking Traffic Data and Logging Into `network_traffic_log.txt`|
 | 5. Exit                                         | Exit Program
 
 ---
