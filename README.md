@@ -29,11 +29,11 @@ These scripts provide interactive menus, logging, automation, and real-time syst
 
 | `process_manager_tool.sh`             | Purpose |
 |---------------------------------------|---------|
-| 1. Display Current CPU Usage          | Display CPU Usage and Collects from /proc/stat |
-| 2. Track CPU Usage and Log            | Log and Track CPU Usage from /proc/stat |
-| 3. Set CPU Affinity for Process       | Displays PIDs for CPU cores used
-| 4. Alert if CPU Threshold Exceeds     | Checks CPU Thresh Is Exceeded Depending on User Input
-| 5. Exit                               | Analyze network traffic, display interfaces, track bandwidth, and detect conn>
+| 1. List Running Processes             | `ps aux` command runs |
+| 2. Kill Process by PID                | Kills Process by PID from /dev/null |
+| 3. Display User Processes             | `ps aux | grep` runs for selected user within system |
+| 4. Show Top 5 CPU/Memory Consuming Processes | `ps aux` runs with `head -n 6` meaning the first 5 PIDs
+| 5. Log Every Minute                   | Logs Processes by Date and inputs into logfile "process_logs.txt" |
 
 | `cpu_manager_tool.sh`             | Purpose |
 |-----------------------------------|---------|
