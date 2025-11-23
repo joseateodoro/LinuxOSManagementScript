@@ -5,6 +5,14 @@ These scripts provide interactive menus, logging, automation, and real-time syst
 
 ---
 
+## Authors
+
+Jose Antonio Teodoro
+Nick O'Brien
+Muhammad Khan
+
+---
+
 ## 📂 Included Tools
 
 | Script Name                     | Purpose |
@@ -17,10 +25,30 @@ These scripts provide interactive menus, logging, automation, and real-time syst
 
 ---
 
+## Script Command List
+
+| `process_manager_tool.sh`             | Purpose |
+|---------------------------------------|---------|
+| 1. Display Current CPU Usage          | Display CPU Usage and Collects from /proc/stat |
+| 2. Track CPU Usage and Log            | Log and Track CPU Usage from /proc/stat |
+| 3. Set CPU Affinity for Process       | Displays PIDs for CPU cores used
+| 4. Alert if CPU Threshold Exceeds     | Checks CPU Thresh Is Exceeded Depending on User Input
+| 5. Exit                               | Analyze network traffic, display interfaces, track bandwidth, and detect conn>
+
+| `cpu_manager_tool.sh`             | Purpose |
+|-----------------------------------|---------|
+| 1. Display Current CPU Usage      | Display CPU Usage and Collects from /proc/stat |
+| 2. Track CPU Usage and Log        | Log and Track CPU Usage from /proc/stat |
+| 3. Set CPU Affinity for Process   | Displays PIDs for CPU cores used
+| 4. Alert if CPU Threshold Exceeds | Checks CPU Thresh Is Exceeded Depending on User Input
+| 5. Exit                           | Analyze network traffic, display interfaces, track bandwidth, and detect connec>
+
+---
+
 ## 🚀 Installation
 
-## NOT FINALIZED
-Clone or download the scripts:
+Clone or Download The Scripts:
 
 ```bash
 git clone https://github.com/joseateodoro/LinuxOSManagementScript.git
+cd OSProject
