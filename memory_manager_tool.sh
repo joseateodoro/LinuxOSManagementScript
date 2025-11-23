@@ -42,7 +42,7 @@ menu() {
     echo "========== Memory Manager Tool =========="
     echo "1. Display Current Memory usage"
     echo "2. List Processes Consuming More Than Specified Memory"
-    echo "3. Allow For Clearing Cache and Buffers to Free Memory"
+    echo "3. Clear Cache and Memory Check"
     echo "4. Exit"
     echo "======================================"
     echo ""

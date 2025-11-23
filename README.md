@@ -9,7 +9,7 @@ These scripts provide interactive menus, logging, automation, and real-time syst
 
 - [Jose Antonio Teodoro](https://github.com/joseateodoro)
 - [Nick O'Brien]
-- [Muhammad Khan]
+- [Muhammad Khan](https://github.com/khan642)
 
 ---
 
@@ -34,14 +34,22 @@ These scripts provide interactive menus, logging, automation, and real-time syst
 | 3. Display User Processes             | `ps aux | grep` runs for selected user within system |
 | 4. Show Top 5 CPU/Memory Consuming Processes | `ps aux` runs with `head -n 6` meaning the first 5 PIDs
 | 5. Log Every Minute                   | Logs Processes by Date and inputs into logfile "process_logs.txt" |
+| 6. Exit                               | Exit Program |
 
 | `cpu_manager_tool.sh`             | Purpose |
 |-----------------------------------|---------|
-| 1. Display Current CPU Usage      | Display CPU Usage and Collects from /proc/stat |
-| 2. Track CPU Usage and Log        | Log and Track CPU Usage from /proc/stat |
+| 1. Display Current CPU Usage      | Display CPU Usage running `grep '^cpu '` and Collects from `/proc/stat` |
+| 2. Track CPU Usage and Log        | Log and Track CPU Usage from `/proc/stat` |
 | 3. Set CPU Affinity for Process   | Displays PIDs for CPU cores used
 | 4. Alert if CPU Threshold Exceeds | Checks CPU Thresh Is Exceeded Depending on User Input
-| 5. Exit                           | Analyze network traffic, display interfaces, track bandwidth, and detect connec>
+| 5. Exit                           | Exit Program
+
+| `memory_manager_tool.sh`              | Purpose |
+|---------------------------------------|---------|
+| 1. Display Memory Usage               | `free -m` command runs |
+| 2. List Processes With Overconsumption of Memory | `ps aux | awk` runs and Displays Processes Using Too Much Memory |
+| 3. Clear Cache and Memory Check       | `sync && echo 3 | sudo tee /proc/sys/vm/drop_caches` checks and clears memory cache |
+| 6. Exit                               | Exit Program |
 
 ---
 
