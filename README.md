@@ -53,10 +53,10 @@ These scripts provide interactive menus, logging, automation, and real-time syst
 
 | `file_system_monitor_tool.sh`     | Purpose |
 |-----------------------------------|---------|
-| 1. Display Disk Usage For Each FileSystem       | Display CPU Usage running `grep '^cpu '` and Collects from `/proc/stat` |
-| 2. List Top 15 Largest files in Directory       | Log and Track CPU Usage from `/proc/stat` into `cpu_usage_log.txt` |
-| 3. Show Modified Files Within the last 24 Hours | Displays PIDs for CPU cores used
-| 4. Clean Temp Files over a given size           | Checks CPU Thresh Is Exceeded Depending on User Input
+| 1. Display Disk Usage For Each FileSystem       | `df -h` runs and shows system disk usage |
+| 2. List Top 15 Largest files in Directory       | Starting from Root Directory, User Inputs a  Directory Path and Displays Top 15 Largest Files |
+| 3. Show Modified Files Within the last 24 Hours | Shows Modified Files Within System |
+| 4. Clean Temp Files over a given size           | Cleans Files With Given Size By User in MB |
 | 5. Exit                                         | Exit Program
 
 | `network_monitor_tool.sh`     | Purpose                                                                         |
