@@ -27,29 +27,45 @@ These scripts provide interactive menus, logging, automation, and real-time syst
 
 ## Script Command List
 
-| `process_manager_tool.sh`             | Purpose |
-|---------------------------------------|---------|
+| `process_manager_tool.sh`             | Purpose                                                           |
+|---------------------------------------|-------------------------------------------------------------------|
 | 1. List Running Processes             | `ps aux` command runs |
 | 2. Kill Process by PID                | Kills Process by PID from /dev/null |
 | 3. Display User Processes             | `ps aux | grep` runs for selected user within system |
 | 4. Show Top 5 CPU/Memory Consuming Processes | `ps aux` runs with `head -n 6` meaning the first 5 PIDs
-| 5. Log Every Minute                   | Logs Processes by Date and inputs into logfile "process_logs.txt" |
+| 5. Log Every Minute                   | Logs Processes by Date and inputs into logfile `process_logs.txt` |
 | 6. Exit                               | Exit Program |
 
-| `cpu_manager_tool.sh`             | Purpose |
-|-----------------------------------|---------|
+| `cpu_manager_tool.sh`             | Purpose                                                                 |
+|-----------------------------------|-------------------------------------------------------------------------|
 | 1. Display Current CPU Usage      | Display CPU Usage running `grep '^cpu '` and Collects from `/proc/stat` |
-| 2. Track CPU Usage and Log        | Log and Track CPU Usage from `/proc/stat` |
+| 2. Track CPU Usage and Log        | Log and Track CPU Usage from `/proc/stat` into `cpu_usage_log.txt` |
 | 3. Set CPU Affinity for Process   | Displays PIDs for CPU cores used
 | 4. Alert if CPU Threshold Exceeds | Checks CPU Thresh Is Exceeded Depending on User Input
 | 5. Exit                           | Exit Program
 
 | `memory_manager_tool.sh`              | Purpose |
-|---------------------------------------|---------|
+|---------------------------------------|-------------------------------------------------------------------------|
 | 1. Display Memory Usage               | `free -m` command runs |
 | 2. List Processes With Overconsumption of Memory | `ps aux | awk` runs and Displays Processes Using Too Much Memory |
 | 3. Clear Cache and Memory Check       | `sync && echo 3 | sudo tee /proc/sys/vm/drop_caches` checks and clears memory cache |
 | 6. Exit                               | Exit Program |
+
+| `file_system_monitor_tool.sh`     | Purpose |
+|-----------------------------------|---------|
+| 1. Display Disk Usage For Each FileSystem       | Display CPU Usage running `grep '^cpu '` and Collects from `/proc/stat` |
+| 2. List Top 15 Largest files in Directory       | Log and Track CPU Usage from `/proc/stat` into `cpu_usage_log.txt` |
+| 3. Show Modified Files Within the last 24 Hours | Displays PIDs for CPU cores used
+| 4. Clean Temp Files over a given size           | Checks CPU Thresh Is Exceeded Depending on User Input
+| 5. Exit                                         | Exit Program
+
+| `network_monitor_tool.sh`     | Purpose                                                                         |
+|-----------------------------------|-----------------------------------------------------------------------------|
+| 1. Display Disk Usage For Each FileSystem       | Display CPU Usage running `grep '^cpu '` and Collects from `/pr>
+| 2. List Top 15 Largest files in Directory       | Log and Track CPU Usage from `/proc/stat` into `cpu_usage_log.t>
+| 3. Show Modified Files Within the last 24 Hours | Displays PIDs for CPU cores used
+| 4. Clean Temp Files over a given size           | Checks CPU Thresh Is Exceeded Depending on User Input
+| 5. Exit                                         | Exit Program
 
 ---
 
