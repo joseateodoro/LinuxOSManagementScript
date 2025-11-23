@@ -7,9 +7,9 @@ These scripts provide interactive menus, logging, automation, and real-time syst
 
 ## Authors
 
-Jose Antonio Teodoro
-Nick O'Brien
-Muhammad Khan
+- [Jose Antonio Teodoro](https://github.com/joseateodoro)
+- [Nick O'Brien]
+- [Muhammad Khan]
 
 ---
 
