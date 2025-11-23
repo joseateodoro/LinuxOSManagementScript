@@ -1,0 +1,12 @@
+----- Sat Nov 22 12:35:24 AM EST 2025 -----
+USER         PID %CPU %MEM    VSZ   RSS TTY      STAT START   TIME COMMAND
+kali        8117  4.7 14.3 11826804 575088 ?     Sl   00:03   1:30 /usr/lib/firefox-esr/firefox-esr
+root        1030  3.2  4.3 463364 176000 tty7    Ssl+ Nov21   1:28 /usr/lib/xorg/Xorg :0 -seat seat0 -auth /var/run/lightdm/root/:0 -nolisten tcp vt7 -novtswitch
+kali        8383  2.4  9.0 2925952 361320 ?      Sl   00:03   0:46 /usr/lib/firefox-esr/firefox-esr -contentproc -childID 3 -isForBrowser -prefsLen 30658 -prefMapSize 248894 -jsInitLen 234912 -parentBuildID 20250811113756 -greomni /usr/lib/firefox-esr/omni.ja -appomni /usr/lib/firefox-esr/browser/omni.ja -appDir /usr/lib/firefox-esr/browser {f0d41722-91c9-4651-83be-f81e5f586b06} 8117 true tab
+kali        1324  0.3  3.1 1188328 127780 ?      Sl   Nov21   0:08 xfwm4
+kali        8694  0.2  1.3 411472 56092 ?        Sl   00:04   0:03 /usr/lib/firefox-esr/firefox-esr -contentproc -parentBuildID 20250811113756 -prefsLen 33468 -prefMapSize 248894 -appDir /usr/lib/firefox-esr/browser {366be84b-f03c-4e36-9351-a30a6ea645aa} 8117 true rdd
+kali        1389  0.1  0.7 272316 28200 ?        Sl   Nov21   0:05 /usr/lib/x86_64-linux-gnu/xfce4/panel/wrapper-2.0 /usr/lib/x86_64-linux-gnu/xfce4/panel/plugins/libgenmon.so 15 16777230 genmon Generic Monitor Show output of a command.
+kali        1387  0.1  1.5 310508 62152 ?        Sl   Nov21   0:04 /usr/lib/x86_64-linux-gnu/xfce4/panel/wrapper-2.0 /usr/lib/x86_64-linux-gnu/xfce4/panel/plugins/libcpugraph.so 13 16777228 cpugraph CPU Graph Graphical representation of the CPU load
+kali        8268  0.1  3.0 2451236 123032 ?      Sl   00:03   0:02 /usr/lib/firefox-esr/firefox-esr -contentproc -childID 1 -isForBrowser -prefsLen 27675 -prefMapSize 248894 -jsInitLen 234912 -parentBuildID 20250811113756 -greomni /usr/lib/firefox-esr/omni.ja -appomni /usr/lib/firefox-esr/browser/omni.ja -appDir /usr/lib/firefox-esr/browser {35d44513-d800-4456-bea7-99fb920f0dfb} 8117 true tab
+kali        1465  0.1  1.0 372632 43072 ?        Sl   Nov21   0:03 /usr/bin/vmtoolsd -n vmusr --blockFd 3
+
